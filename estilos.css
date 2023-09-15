@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor-ppal{
+    width: 70%;
+    height: 100vh;
+    background-color:hsl(216, 12%, 8%);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    font-family: 'Overpass', sans-serif;
+
+}
+.imagen{
+    width: 15%;
+    height: 15%;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 35px;
+    background: hsl(213, 19%, 18%)
+
+}
+l
+.imagen img{
+    width: 50%;
+    height: 50%;
+
+}
+.card{
+    width: 400px;
+    height: 400px;
+    display: block;
+    margin: auto;
+    padding: 40px;
+    border-radius: 20px;
+    background: linear-gradient(to bottom,  hsl(213, 19%, 18%),hsl(216, 12%, 8%) );
+
+}
+.card h1{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: hsl(0, 0%, 100%);
+}
+.card p{
+    color:hsl(217, 12%, 63%);
+    text-align: justify;
+    margin-bottom: 10px;
+    
+}
+.botones{
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin:15px auto;
+    background-color:hsl(213, 19%, 18%);
+    border: none;
+    
+
+}
+
+.activo{
+    background-color: hsl(25, 97%, 53%);
+    color:hsl(0, 0%, 100%);
+}
+
+
+button a{
+    text-decoration: none;
+    color: hsl(217, 12%, 63%);
+}
+
+.submit{
+    width: 95%;
+    height: 40px;
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 20px;
+    display: block;
+    margin: 25px auto;
+    border:none;
+    color: hsl(0, 0%, 100%);
+    font-weight: 300;
+
+}
+
+.submit:hover{
+    background-color:hsl(0, 0%, 100%);
+    color:hsl(25, 97%, 53%);
+
+}
+.image-request{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.image-request img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.selection{
+    color:hsl(25, 97%, 53%);
+    font-weight: 300;
+    background: linear-gradient(to bottom,  hsl(213, 19%, 18%),hsl(216, 12%, 8%) );
+    padding: 10px 20px;
+    border-radius: 20px;
+    width: 60%;
+    align-self: center;
+
+}
+
+.card-request{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    border-radius: 20px;
+    background: linear-gradient(to bottom,  hsl(213, 19%, 18%),hsl(216, 12%, 8%) );
+
+}
+.card-request h1{
+    margin-top: 50px;
+    margin-bottom: 15px;
+    color: hsl(0, 0%, 100%);
+    border: 1px solid black;
+    
+    
+}
+.card-request p{
+    color:hsl(217, 12%, 63%);
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+
